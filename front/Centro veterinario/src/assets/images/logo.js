@@ -1,0 +1,1 @@
+export const urlLogoCentroVeterinario = 'https://static.vecteezy.com/system/resources/thumbnails/006/470/429/small/pet-shop-logo-design-template-modern-animal-icon-label-for-store-veterinary-clinic-hospital-shelter-business-services-flat-illustration-background-with-dog-cat-and-horse-free-vector.jpg'
