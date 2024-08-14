@@ -1,0 +1,1 @@
+export const imglanding = 'https://blog.fridapets.com.mx/wp-content/uploads/2020/11/que-prefiere-la-gente-perros-o-gatos.jpg'
