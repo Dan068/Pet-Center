@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Appointment from "../components/Appointments/Appointment"
+import Appointment from "../components/Appointment"
 import axios from 'axios'
 
 

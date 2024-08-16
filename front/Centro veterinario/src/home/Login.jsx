@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { urlLogoCentroVeterinario } from "../../assets/images/logo";
+import { urlLogoCentroVeterinario } from "../assets/images/logo";
 //import { validate } from "../../helpers/validate";
 //import styles from './Login.module.css'
 
@@ -57,14 +57,15 @@ const Login = (onLogin) => {
     return (
         <>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 
                 <img src={urlLogoCentroVeterinario} 
                 alt="Logo Pet Center" 
                 className="mx-auto h-10 w-auto"/>
 
-                <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Iniciar sesión</h2>
-                
+                <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sacar cita</h2>
+                <h4 className="mt-7 text-center text-2xl font-bold leading-9 tracking-tight text-gray-700">Iniciar sesión</h4>
             </div>
         </div>
         

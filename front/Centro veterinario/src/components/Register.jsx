@@ -1,4 +1,4 @@
-import { validate } from '../../helpers/validate';
+import { validate } from '../helpers/validate';
 import { useState } from 'react';
 
 const Register =()=>{

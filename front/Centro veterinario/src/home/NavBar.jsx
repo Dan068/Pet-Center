@@ -1,15 +1,15 @@
-import AboutUs from "../../aboutUs/AboutUs";
-import MyAcount from "../../miAcount/MiAcount";
+import AboutUs from "./AboutUs";
+import MyAcount from "./MiAcount";
 import { urlLogoCentroVeterinario } from "../assets/images/logo";
-import styles from './NavBar.module.css';
+
 
 const NavBar = ()=>{
     return (
         <>
-        <nav className={styles.NavBar}>
-            <div className={styles.rightSection}>
-                <img src={urlLogoCentroVeterinario} alt="Logo" className={styles.log} />
-                <ul className={styles.navLinks}>
+        <nav className='NavBar'>
+            <div className='rightSection'>
+                <img src={urlLogoCentroVeterinario} alt="Logo" className='logo' />
+                <ul className='navLinks'>
                     <li> <a href="">
                         <MyAcount/>
                         </a> </li>
@@ -22,6 +22,7 @@ const NavBar = ()=>{
                
 
         </nav>
+        <h1>navbar</h1>
         </>
 
     )

@@ -1,11 +1,25 @@
-import Home from './view/home/Home'
+import NavBar from './home/NavBar'
+import PetClinic from './home/PetClinic'
+import Aestetics from './home/Aesthetics'
+import Boarding from './home/Boarding'
+import Login from './home/Login'
+import AboutUs from './home/AboutUs'
 
 function App() {
 
   return (
     <>
-      <Home/>
-    </>
+    <NavBar/>
+    <AboutUs/>
+    <PetClinic/>
+    <Aestetics/>
+    <Boarding/>
+    <Login/>
+
+
+  
+    
+      </>
   )
 }
 
